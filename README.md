@@ -1,10 +1,18 @@
-# Programowanie Proceduralne
-Programy napisane na laby GK. Semestr 2, rok 2020.
+# Procedural programming
 
-## Poprawnosc zadan
-Wszystkie programy byly sprawdzane pod katem dzialania i wyciekow pamieci  
-z pomoca `valgrind`:
-```
-gcc prog.c -out  program
+Code written for Applied Computer Science **Procedural programming** course at [AGH UST](https://www.agh.edu.pl/en) [WFiIS](https://www.fis.agh.edu.pl/en/).
+
+Semester `2`, year `2020`.
+
+## Exercise correctness
+
+All programs have been checked for memory leaks with `valgrind` tool.
+
+```bash
+gcc prog.c -out program
 valgrind ./program
 ```
+
+## License
+
+Sources are licensed under MIT, a free and open-source license. For details, please see [the license file](LICENSE.md).
